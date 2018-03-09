@@ -25,6 +25,7 @@ namespace ProjectRectangle
             Console.ReadKey();
         }
 
+        //adding the user input to the list which is a type of rectangle using GetPoint
         private static void GetRectangles(List<Rectangle> rectangles)
         {
             do
@@ -52,6 +53,7 @@ namespace ProjectRectangle
 
         }
 
+        //Getting user inputs
         private static void GetPoint(Point point)
         {
             Console.WriteLine("Enter X");
